@@ -45,6 +45,7 @@ GEM
     ancestry (3.0.2)
       activerecord (>= 3.2.0)
     arel (9.0.0)
+    benchmark-ips (2.7.2)
     bootsnap (1.3.1)
       msgpack (~> 1.0)
     builder (3.2.3)
@@ -125,6 +126,7 @@ PLATFORMS
 
 DEPENDENCIES
   ancestry
+  benchmark-ips
   bootsnap (>= 1.1.0)
   closure_tree
   mysql2 (>= 0.4.4, < 0.6.0)

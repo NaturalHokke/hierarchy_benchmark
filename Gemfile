@@ -9,3 +9,5 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'ancestry'
 gem 'closure_tree'
+
+gem 'benchmark-ips'
