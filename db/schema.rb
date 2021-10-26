@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 2021_10_26_051214) do
     t.bigint "parent_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["parent_id"], name: "index_closure_tree_tags_on_parent_id"
   end
 
   create_table "recursive_tags", force: :cascade do |t|
